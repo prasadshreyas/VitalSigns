@@ -8,12 +8,12 @@ package ui;
  *
  * @author shreyasprasad
  */
-public class resutlsPanel extends javax.swing.JPanel {
+public class resultsFrame extends javax.swing.JPanel {
 
     /**
      * Creates new form resutlsPanel
      */
-    public resutlsPanel() {
+    public resultsFrame() {
         initComponents();
     }
 

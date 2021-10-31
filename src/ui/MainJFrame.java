@@ -3,6 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
 package ui;
+import java.awt.Container;
+
+
 
 /**
  *
@@ -120,14 +123,25 @@ public class MainJFrame extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        ManagePatients managePanel = new ManagePatients();
+        jSplitPane1.setRightComponent(managePanel);
+        
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        recordEncounter recordPanel = new recordEncounter();
+         jSplitPane1.setRightComponent(recordPanel);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        
+        resultsFrame resultPanel = new resultsFrame();
+                 jSplitPane1.setRightComponent(resultPanel);
+
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     
