@@ -10,6 +10,10 @@ package model;
  */
 public class House extends Community {
  
-    
+    private String street_name;
+
+    public House(String comm_name, int counter) {
+        super(comm_name, counter);
+    }
     
 }

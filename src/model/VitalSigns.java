@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package model;
 
@@ -9,35 +9,30 @@ package model;
  * @author shreyasprasad
  */
 public class VitalSigns {
+    private int sbp, dbp, pulse, res_rate;
+    private int temp;
 
-    /**
-     * @param args the command line arguments
-     */
-
-    
-    private int bp,  pulse, res_rate;
-    private double temp;
-    
-   public VitalSigns()
-    {
-        
+    public VitalSigns() {
+       
     }
 
-    public int getBp() {
-        return bp;
+    public int getSbp() {
+        return sbp;
     }
 
-    public void setBp(int bp) {
-        this.bp = bp;
+    public void setSbp(int sbp) {
+        this.sbp = sbp;
     }
 
-    public double getTemp() {
-        return temp;
+    public int getDbp() {
+        return dbp;
     }
 
-    public void setTemp(int temp) {
-        this.temp = temp;
+    public void setDbp(int dbp) {
+        this.dbp = dbp;
     }
+
+
 
     public int getPulse() {
         return pulse;
@@ -53,6 +48,14 @@ public class VitalSigns {
 
     public void setRes_rate(int res_rate) {
         this.res_rate = res_rate;
+    }
+
+    public double getTemp() {
+        return temp;
+    }
+
+    public void setTemp(int temp) {
+        this.temp = temp;
     }
     
     

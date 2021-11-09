@@ -2,6 +2,21 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/Patient.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/VitalSigns.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/ui/resultsPanel.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/EncounterHistory.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/City.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/Encounter.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/House.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/PatientDirectory.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/Community.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/PersonDirectory.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/ui/recordEncounterPanel.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/model/Person.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/ui/ManagePatients.java</file>
+            <file>file:/Users/shreyasprasad/aed_lab/VitalSignsApp/src/ui/MainJFrame.java</file>
+        </group>
     </open-files>
 </project-private>

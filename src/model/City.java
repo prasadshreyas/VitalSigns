@@ -10,14 +10,7 @@ package model;
  */
 public class City {
  
-    private String city;
+    private final String city = "";
 
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
     
 }

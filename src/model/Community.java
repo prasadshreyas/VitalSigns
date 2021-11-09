@@ -12,6 +12,20 @@ public class Community extends City{
     
     public String comm_name;
 
+    public int getCounter() {
+        return counter;
+    }
+
+    public Community(String comm_name, int counter) {
+        this.comm_name = comm_name;
+        this.counter = counter;
+    }
+
+    public void setCounter(int counter) {
+        this.counter = counter;
+    }
+    public int counter;
+
     public String getComm_name() {
         return comm_name;
     }
